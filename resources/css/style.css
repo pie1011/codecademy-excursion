@@ -1,0 +1,41 @@
+* {
+    --color-text: #fff;
+    --color-bg: #000;
+
+}
+:root {
+    font-family: "Verdana", Verdana, sans-serif;
+    font-size: 16pt;
+    color: var(--color-text);
+    text-align: center;
+}
+body {
+    background-color: var(--color-bg);
+    text-align: center;;
+}
+header {
+    text-align: center;
+}
+h1 {
+    font-size: 50px;
+    font-weight: normal;
+}
+h2 {
+    font-size: 42px;
+    font-weight: 300;
+}
+p {
+    font-size: 21px;
+    color: gray;
+}
+a {
+    color: aquamarine;
+    font-size: 16px;
+}
+#icon  {
+    margin-top: 20px;
+    padding-top: 15px;
+}
+footer {
+    text-align: right;
+}
